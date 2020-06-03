@@ -29,4 +29,4 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run Surge
-      run: surge ./http://moshinraz_bootcamp2020.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./moshinraz_bootcamp2020.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
